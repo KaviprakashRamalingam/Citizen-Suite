@@ -359,8 +359,8 @@ public class SignUpJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_HomeButtonActionPerformed
     public void send_mail(String to_mail, int code) {
         System.out.println("Sending Mail");
-        String email = "psvkyear2023@gmail.com";
-        String password = "jnyrosoktlbluqbf";
+        String email = "sample@gmail.com";  //Input your password
+        String password = "***"; //Input your password
         Properties defaultProps = new Properties();
         defaultProps.setProperty("mail.smtp.auth", "true");
         defaultProps.setProperty("mail.smtp.starttls.enable", "true");
