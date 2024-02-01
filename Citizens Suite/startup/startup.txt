@@ -1,0 +1,3 @@
+Make sure sql server is running
+update root password at "..\com\citizensuite\main\MainJFrame.java"
+run the .\Startup.sql on your server.
